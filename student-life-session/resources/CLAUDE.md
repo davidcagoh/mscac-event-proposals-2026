@@ -175,3 +175,4 @@ Standardized copies live in `past-proposals/` (filename: `YYMMDD-event-slug.md`,
 | `past-proposals/260711-go-karting-social.md` | Go-Karting Social @ K1 Speed Toronto, Jul 11 2026 | $900 |
 | `past-proposals/260719-fifa-world-cup-final-watch-party.md` | FIFA World Cup 2026 Final Watch Party, Jul 19 2026 | $875 |
 | `past-proposals/260807-civic-weekend-dinner.md` | Civic Weekend Dinner (shelved, not submitted — pivoted to Orientation Game Night) | $1,750 |
+| `past-proposals/260307-ski-trip.pdf` | MScAC Ski Trip @ Blue Mountain Resort (w/ UTSSC), Mar 7 2026 | $2,760 |
