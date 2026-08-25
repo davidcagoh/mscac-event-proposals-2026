@@ -157,33 +157,57 @@
 \end{frame}
 
 \begin{frame}{MScAC Supports Events Through The Student Initiative Fund}
-  \begin{center}
-    \Large Open to the cohort\\[0.35cm]
-    Clear benefit\\[0.35cm]
-    Realistic plan and budget
-  \end{center}
+  \begin{columns}[c]
+    \column{0.62\textwidth}
+      \begin{itemize}
+        \item Open to the cohort
+        \item Clear benefit to the cohort
+        \item Realistic plan and budget
+        \item No alcohol or gambling
+      \end{itemize}
+    \column{0.28\textwidth}
+      \centering
+      \includegraphics[width=0.8\linewidth]{resources/guidelines_qr.png}\\[0.15cm]
+      \small Guidelines
+  \end{columns}
 \end{frame}
 
 \begin{frame}{How it works}
   \centering
-  \Large
-  Interest poll (Discord)
-  $\rightarrow$
-  Proposal (Claude markdown $\rightarrow$ PDF, spreadsheet of price quotes)
-  $\rightarrow$
-  Approval from MScAC Program Staff
-  $\rightarrow$
-  RSVP (Partiful Event)
-  $\rightarrow$
-  Host the event (Save the receipts!)
-  $\rightarrow$
-  Submit reimbursement request (4--6 week processing time)
+  \begin{tikzpicture}[
+    flowstep/.style={draw=blue!70!black, rounded corners, fill=blue!5,
+      minimum width=2.55cm, minimum height=1.05cm, align=center, font=\small},
+    arrow/.style={->, thick, blue!70!black}
+  ]
+    \node[flowstep] (poll) at (-4.2,1.1) {\textbf{1}\\Interest poll\\Discord};
+    \node[flowstep] (proposal) at (0,1.1) {\textbf{2}\\Proposal\\+ quotes};
+    \node[flowstep] (approval) at (4.2,1.1) {\textbf{3}\\MScAC\\approval};
+    \node[flowstep] (rsvp) at (-4.2,-1.1) {\textbf{4}\\RSVP\\Partiful};
+    \node[flowstep] (event) at (0,-1.1) {\textbf{5}\\Host event\\keep receipts};
+    \node[flowstep] (reimburse) at (4.2,-1.1) {\textbf{6}\\Reimbursement\\4--6 weeks};
+    \draw[arrow] (poll) -- (proposal);
+    \draw[arrow] (proposal) -- (approval);
+    \draw[arrow] (approval) -- (rsvp);
+    \draw[arrow] (rsvp) -- (event);
+    \draw[arrow] (event) -- (reimburse);
+  \end{tikzpicture}
 \end{frame}
 
 \begin{frame}{Resources}
-  \begin{center}
-    \Large Proposal template\qquad Sample proposal\qquad Quote sheet
-  \end{center}
+  \begin{columns}[c]
+    \column{0.30\textwidth}
+      \centering
+      \includegraphics[width=0.78\linewidth]{resources/proposal_template_qr.png}\\[0.15cm]
+      \small Proposal template
+    \column{0.30\textwidth}
+      \centering
+      \includegraphics[width=0.78\linewidth]{resources/sample_proposals_qr.png}\\[0.15cm]
+      \small Sample proposals
+      \column{0.30\textwidth}
+        \centering
+        \includegraphics[width=0.78\linewidth]{resources/quote_sheets_qr.png}\\[0.15cm]
+        \small Quote sheets
+  \end{columns}
 \end{frame}
 
 \begin{frame}{What would you run?}
@@ -195,7 +219,7 @@
 
 \begin{frame}
   \begin{center}
-    \Huge 
+    \Huge Student initiatives can make all the difference. Drop me a Discord DM to partner on an event!
   \end{center}
 \end{frame}
 
