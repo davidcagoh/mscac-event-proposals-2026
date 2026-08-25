@@ -1,0 +1,8 @@
+*
+!.gitignore
+!CLAUDE.md
+!past-proposals/
+!past-proposals/**
+!student-life-session/
+!student-life-session/**
+student-life-session/archive/map-source/geodata/csd.zip
